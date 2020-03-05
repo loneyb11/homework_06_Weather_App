@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+}
+#search-bar{
+    float: left;
+    height: 200px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+.five-box{
+    color: white;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    width: 135px;
+    height: 135px;
+    border-radius: 15px;
+    background-color: #007BFF;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+}
+ul.button-list{
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 0;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+.city-button{
+    width: 350px;
+}
+ul.button-list .city-button:not(:last-child) {
+    border-bottom: none;
+}
+/* #uv-index{
+    background-color: red;
+    border-radius: 5px;
+} */
