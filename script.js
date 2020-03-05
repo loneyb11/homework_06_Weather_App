@@ -94,3 +94,9 @@ function renderButton(){
         }
     }
 }
+// clear funciton to reset searches
+$("#clear").on("click", function () {
+    console.log("clicked");
+    localStorage.clear();
+    window.location.reload();
+});
