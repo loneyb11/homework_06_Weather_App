@@ -3,7 +3,7 @@ var APIKey = "3e9d87d35573023730cb8b39082ee8ee";
 $("#find-city").on("click", function(event) {
     event.preventDefault();
     var cityEl = $(".city").val().trim(); 
-    //otherwise var will be the whole input
+    
     getCityWeather(cityEl);
 
     var now = moment().format("l");
@@ -94,18 +94,3 @@ function renderButton(){
         }
     }
 }
-
-
-
-
-// function renderButtons() {
-//     var searchHistory = [];
-//     for (var i=0; i<searchHistory.length; i++){
-//         var cityBtn = $("<button>");
-//         cityBtn.addClass("search-history");
-//         cityBtn.attr("data-letter", searchHistory[i]);
-//         cityBtn.text(searchHistory[i]);
-//         $("<button>").prepend(cityBtn);
-//         $(".search-history").append(cityBtn);
-//     }
-// }
