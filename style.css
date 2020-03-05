@@ -1,5 +1,9 @@
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
 header{
     text-align: center;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 #search-bar{
     float: left;
@@ -16,6 +20,7 @@ header{
     display: inline-block;
     margin-right: 10px;
     padding: 10px;
+    padding-bottom: 5px;
 }
 ul.button-list{
     list-style-type: none;
@@ -25,11 +30,13 @@ ul.button-list{
 }
 .city-button{
     width: 350px;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 ul.button-list .city-button:not(:last-child) {
     border-bottom: none;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
-/* #uv-index{
+#uv-index{
     background-color: red;
     border-radius: 5px;
-} */
+} 
